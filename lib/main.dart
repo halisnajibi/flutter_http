@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'v2/person_page.dart';
+
+import 'dasar/latihan_1.dart';
 
 void main() {
   runApp(MyApp());
@@ -10,9 +11,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: PersonPage(),
+      home: Latihan1(),
     );
   }
 }

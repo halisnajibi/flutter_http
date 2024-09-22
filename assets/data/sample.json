@@ -1,0 +1,28 @@
+{
+    "name": "halis najibi",
+    "age":20,
+    "hoby":[
+        "coding",
+        "futsal",
+        "game"
+    ],
+    "github":{
+        "username": "@halisnajibi",
+        "repositoris":8977
+    },
+    "articles":[
+        {
+            "id":1,
+            "title" : "artikel 1",
+            "body": "loremdadasdasdasdasdasd"
+        },  {
+            "id":2,
+            "title" : "artikel 2",
+            "body": "lsdoremdadasgfdg"
+        },  {
+            "id":3,
+            "title" : "artikel 3",
+            "body": "hjjghjghj"
+        }
+    ]
+}
