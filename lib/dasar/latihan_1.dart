@@ -4,9 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_http/dasar/model/sample.dart';
 
-import 'widgets/listdynamic.dart';
-import 'widgets/listring.dart';
-
 class Latihan1 extends StatefulWidget {
   const Latihan1({super.key});
 
@@ -28,7 +25,6 @@ class _Latihan1State extends State<Latihan1> {
   @override
   Widget build(BuildContext context) {
     print(result?.articles);
-    List<String>? hoby = result?.hoby;
     return Scaffold(
       appBar: AppBar(
         title: const Text("flutter pasring data"),
@@ -50,7 +46,7 @@ class _Latihan1State extends State<Latihan1> {
               itemCount: result?.articles?.length ?? 1,
               itemBuilder: (context, index) {
                 return ListTile(
-                  title: Text(result?.articles?[index]?.title ?? 'No Title'),
+                  title: Text(result?.articles?[index].title ?? 'No Title'),
                 );
               },
             ),
