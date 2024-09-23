@@ -1,0 +1,21 @@
+{
+        "code":200,
+        "data":{
+            "nomor":1,
+            "arti":"coba",
+            "ayat":[
+                {
+                    "nomorAyat":1,
+                    "teksLatin": "sdasdsadasd"
+                },
+                {
+                    "nomorAyat":2,
+                    "teksLatin": "dhgfhfghfg"
+                },
+                {
+                    "nomorAyat":3,
+                    "teksLatin": "ghfh"
+                }
+            ]
+        }
+}

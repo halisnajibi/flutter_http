@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_http/http/latihan2.dart';
-import 'package:flutter_http/http/latihan3.dart';
+import 'dasar/latihan_3.dart';
 
 void main() {
   runApp(MyApp());
@@ -11,7 +10,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Latihan3(),
     );

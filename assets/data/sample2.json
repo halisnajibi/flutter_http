@@ -1,0 +1,14 @@
+{
+    "tempatLahir" : "hulu sunghai tengah",
+    "tanggalLahir" : 1991001,
+    "mhs":[
+        {
+            "name": "najibi",
+            "npm" :121212
+        },
+         {
+            "name": "rina",
+            "npm" :24234
+        }
+    ]
+}
