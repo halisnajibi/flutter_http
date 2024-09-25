@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_http/dasar/latihan4.dart';
 import 'dasar/latihan_3.dart';
 
 void main() {
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Latihan3(),
+      home: Latihan4(),
     );
   }
 }
